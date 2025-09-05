@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Resume & Contact</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Abhinaya Chhetri</h1>
+            <h2>Graphic Designer</h2>
+        </header>
+        
+        <section class="profile-section">
+            <img src="MYY - Copy.jpg" alt="Abhinaya" class="profile-photo" id="profileImg" style="outline: rgb(0, 0, 0) dotted 3px; outline-offset: 1px;">
+            <div class="photo-upload">
+            </div>
+        </section>
+        
+        <div class="bio">
+            <p>I am a dedicated professional with 2 years of experience in Web Designing and Graphic Designing. My expertise includes As a skilled web and graphic designer, I specialize in creating visually compelling brand identities, intuitive user interfaces, and responsive websites. I bring together creative design principles like typography, color theory, and layout with technical expertise in HTML, CSS, and prototyping tools like Figma and Adobe XD. Proficient in Adobe Creative Suite and content management systems like WordPress, I combine artistry and usability to craft experiences that resonate. With strong communication, time management, and a pulse on design trends, I thrive in turning concepts into impactful visuals with a strong focus on Graphics, content of a websites.</p>
+        </div>
+        
+        <section id="education">
+            <h3>Education</h3>
+            <div class="education-item">
+                <h4>Diploma in Computrr Science</h4>
+                <p>Aarambha Eaducational Foundation</p>
+                <p>1 Ranker</p>
+            </div>
+            <div class="education-item">
+                <h4>+2 Student</h4>
+                <p>Shree Narayan secondary school</p>
+                <p>Kushma-6, Parbat</p>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h3>Skills</h3>
+            <div class="skill">
+                <h4>HTML/CSS</h4>
+                <div class="skill-bar"><div class="skill-fill" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill">
+                <h4>JavaScript</h4>
+                <div class="skill-bar"><div class="skill-fill" style="width: 60%;"></div></div>
+            </div>
+            <div class="skill">
+                <h4>Colour Grading</h4>
+                <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill">
+                <h4>Designing</h4>
+                <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <h3>Experience</h3>
+            <div class="experience-item">
+                <h4>Deasignr</h4>
+                <p>Ashis books, 2022-2024</p>
+                <p> My poster designs are bold, eye-catching, and built to communicate messages clearly — perfect for events, promotions, and social media marketing. I also create engaging and click-worthy thumbnails that help boost video visibility on platforms like YouTube and Instagram by using contrast, strong text, and appealing visuals.</p>
+            </div>
+            <div class="experience-item">
+                <h4>Web Designer</h4>
+                <p>Present</p>
+                <p>My expertise includes As a skilled web and graphic designer, I specialize in creating visually compelling brand identities, intuitive user interfaces, and responsive websites. I bring together creative design principles like typography, color theory, and layout with technical expertise in HTML, CSS and JS,</p>
+            </div>
+        </section>
+        
+        <div style="text-align: center;">
+           <a href="Reasime_abhinaya_chhetri.pdf" class="download-btn" download>Download Resume</a>
+        </div>
+        
+        <section class="contact-form">
+            <h3>Contact Me</h3>
+            <form id="contactForm"
+                  action="https://formspree.io/f/mblapwra" method="POST" >
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <div class="error" id="nameError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <div class="error" id="emailError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                    <div class="error" id="subjectError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <div class="error" id="messageError"></div>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+    </div>
+    <script src="Script.js"></script>    
+</body>
+</html>
+</content>
+</create_file>
